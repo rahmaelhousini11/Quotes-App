@@ -1,0 +1,33 @@
+.firstfont {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.secoundfont {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fontsizyp {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #000;
+}
+
+button {
+    background-color: rgb(8, 12, 245);
+    padding: 30px 90px;
+    color: white;
+    text-align: center;
+    transition: all 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.333px;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: #008000;
+}
