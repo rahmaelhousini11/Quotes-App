@@ -1,6 +1,3 @@
-// btn = document.getElementById('btn');
-// quote = document.getElementById('quote');
-// author = document.getElementById('author');
 
 var Quotes = [{
     quote: "“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”",
@@ -45,14 +42,19 @@ btns = document.querySelector("#Qbtn");
 quote = document.querySelector(".quote");
 author = document.querySelector(".author");
 
-
 function addNewQuote() {
-    var randomQuote = Math.floor(Math.random() * Quotes.length);
+    var randomQuote = Math.floor(Math.random() * Quotes.length + 1);
     quote.innerHTML = Quotes[randomQuote].quote;
     author.innerHTML = Quotes[randomQuote].author;
 
 
 }
+
+// btn = document.getElementById('btn');
+// quote = document.getElementById('quote');
+// author = document.getElementById('author');
+
+
 // function addNewauthor() {
 //     var randomauthor = author[Math.floor(Math.random() * author.length)];
 //     author.innerHTML = randomauthor;

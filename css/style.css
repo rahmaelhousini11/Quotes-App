@@ -11,6 +11,16 @@
     font-weight: 400;
 }
 
+.fontsize2 {
+    font-size: 25px;
+
+}
+
+.web {
+    width: 70%;
+    margin-top: 80px;
+}
+
 h2 {
     font-size: 80px;
     font-weight: 700;
